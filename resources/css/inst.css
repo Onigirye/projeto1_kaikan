@@ -21,6 +21,13 @@
     border: 5px solid gray;
     margin: 0;
 }
+.pad2{
+    width: 420px;
+    height: 70px;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0;
+}
 
 /*Global*/
 p{

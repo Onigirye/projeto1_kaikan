@@ -127,6 +127,15 @@ h3{
     }
   }
 
+  #nome{
+    background-color: #980000;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 /*Parte do meio*/
   .cen{
     margin-left: 20%;
