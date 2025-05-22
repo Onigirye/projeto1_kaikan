@@ -1,27 +1,27 @@
 /*Classes*/
-.dv{
+.dv {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.cx{
+
+.cx {
     border: 10px solid white;
 }
-.tble{
-    border:3px solid white;
-    font-family:'Times New Roman', Times, serif ;
-    font-size: 1.9vh ;
+
+.tit {
+    width: 450px;
+}
+
+.tble {
+    border: 3px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9vh;
     display: flex;
     justify-content: center;
 }
-.pad{
-    width: 420px;
-    height: 70px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-}
-.pad2{
+
+.pad {
     width: 420px;
     height: 70px;
     padding: 10px;
@@ -29,14 +29,51 @@
     margin: 0;
 }
 
+.pad2 {
+    width: 420px;
+    height: 70px;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.hmeio{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Id*/
+#titp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Global*/
-p{
+p {
     font-size: 1.75vh;
     font-family: Georgia, Times, serif;
 }
-th{
+
+th {
     border: 1px solid black;
 }
-td{ 
+
+td {
     justify-content: center;
-    border: 1px solid white;}
+    border: 1px solid white;
+}

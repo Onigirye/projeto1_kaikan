@@ -1,0 +1,10 @@
+/*Parte do meio*/
+  .cen{
+    margin-left: 20%;
+  }
+  .meio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .esp{padding: 20px;}

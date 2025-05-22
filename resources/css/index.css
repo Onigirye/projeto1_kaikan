@@ -6,7 +6,10 @@ h2{
 }
 h3{
   font-size: 2vh;
+  width: 25%;
 }
+
+/*Menu navigation*/
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -136,18 +139,7 @@ h3{
     flex-direction: column;
   }
 
-/*Parte do meio*/
-  .cen{
-    margin-left: 20%;
-  }
-  .meio{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .esp{padding: 20px;}
-
-/*Parte inferior*/
+/*Footer*/
   #div_baixo{
     background-color: #980000;
     color: white;
