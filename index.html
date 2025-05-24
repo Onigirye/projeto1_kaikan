@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <header>
+
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./resources/css/index.css">
         <link rel="stylesheet" href="./resources/css/home.css">
         <meta charset="UTF-8">
@@ -44,62 +46,49 @@
         </div>
         <a href="./pages/partnership.html">Parcerias</a>
         <a href="#contato">Contato</a>
+        <div id="log">
+            <a href="./pages/login.html">Login</a>
+            <a href="./pages/sign_up.html">Sign-up</a>
+        </div>
     </div>
 </header>
+
 <body>
-
-    <div class="cen">
-        <div>
-            <div>
-                <h2>Ultimos Eventos</h2>
-            </div>
-            <div class="meio">
-                <div>
-                    <img class="img" src="resources/img/index/Campeonato_Karaoke.png" alt="Foto" width="350"
-                        height="250">
-                </div>
-                <div class="esp">
-                    <h3>Campeonato de Karaokê</h3>
-                    <p>Cornélio sediou o 26º Campeonato de Karaokê da região.</p>
-                </div>
-            </div>
-
-            <div class="meio">
-                <div>
-                    <h3>Feijoada 2025</h3>
-                    <p>O kaikan de Cornélio Procópio fez sua famosa feijoada. Dando mais de 400 potes de 1,5kg.</p>
-                </div>
-                <div class="esp">
-                    <img class="img" src="resources/img/index/feijoada.png" alt="Foto" width="350" height="290">
-                </div>
-            </div>
-
-            <div class="meio">
-                <div>
-                    <img class="img" src="resources/img/index/treino_mirim_1.jpeg" alt="Foto" width="350" height="250">
-                </div>
-                <div class="esp">
-                    <h3>Taiko</h3>
-                    <p>Primeiro workshop do grupo Ryushin Daiko com crianças.</p>
-                </div>
+    <div id="dbd"><!--Ultimos eventos | Corpo maior-->
+        <h2>Ultimos Eventos</h2>
+        <div class="meio"> <!--parte 1-->
+            <img class="img" src="resources/img/index/Campeonato_Karaoke.png" alt="Foto" width="350" height="250">
+            <div class="esp"> <!--texto-->
+                <h3>Campeonato de Karaokê</h3>
+                <p>Cornélio sediou o 26º Campeonato de Karaokê da região.</p>
             </div>
         </div>
 
-        <div>
-            <h2>Atual Presidente</h2>
-            <div class="meio">
-                <div>
-                    <img class="img" src="resources/img/index/pres_RMD.png" alt="Foto" width="150" height="200">
-                </div>
-                <div class="esp">
-                    <p>
-                        Nome: Roberto Makoto Date.
-                    </p>
-                </div>
+        <div class="meio"><!--parte 2-->
+            <div class="esp"> <!--texto-->
+                <h3>Feijoada 2025</h3>
+                <p>O kaikan de Cornélio Procópio fez sua famosa feijoada. Dando mais de 400 potes de 1,5kg.</p>
+            </div>
+            <img class="img" src="resources/img/index/feijoada.png" alt="Foto" width="350" height="290">
+        </div>
+
+        <div class="meio"><!--parte 3-->
+            <img class="img" src="resources/img/index/treino_mirim_1.jpeg" alt="Foto" width="350" height="250">
+            <div class="esp"><!--texto-->
+                <h3>Taiko</h3>
+                <p>Primeiro workshop do grupo Ryushin Daiko com crianças.</p>
             </div>
         </div>
     </div>
+    <div id="pres"> <!--Foto e nome do atual presidente-->
+        <div>
+            <h2>Atual Presidente ACEP-CP</h2>
+        </div>
+        <p>Nome: Roberto Makoto Date</p>
+        <img class="img" src="resources/img/index/pres_RMD.png" alt="Foto" width="150" height="200">
+    </div>
 </body>
+
 <footer>
     <div id="div_baixo">
         <div class="div_b">
@@ -114,16 +103,23 @@
             </div>
             <div>
                 <p>Endereço</p>
-                <p><i class="material-icons">location_on</i><a id="a_b"
-                        href="https://www.google.com/maps/place/Kaikan/@-23.1825034,-50.6624728,17z/data=!3m1!4b1!4m6!3m5!1s0x94eadf410b45846f:0xdfe8aa5596dd1d73!8m2!3d-23.1825034!4d-50.6624728!16s%2Fg%2F11c1pl9yr1?entry=ttu&g_ep=EgoyMDI1MDUxMi4wIKXMDSoASAFQAw%3D%3D">
+                <p><i class="material-icons">location_on</i><a
+                        href="https://www.google.com/maps/place/Kaikan/@-23.1825034,-50.6624728,17z/data=!3m1!4b1!4m6!3m5!1s0x94eadf410b45846f:0xdfe8aa5596dd1d73!8m2!3d-23.1825034!4d-50.6624728!16s%2Fg%2F11c1pl9yr1?entry=ttu&g_ep=EgoyMDI1MDUxMi4wIKXMDSoASAFQAw%3D%3D"
+                        class="a_b">
                         Tv. Joaquim Botas Margarido, 133-249 - Cornélio Procópio, PR, 86300-000
                     </a></p>
             </div>
         </div>
         <div class="foot">
-            <p>Projeto 1 - Ana Paula Rye Ito & Fábio Hideki Sato - 2025_1
-            <p>
+            <div class="df">
+                <p class="pfoot">Projeto 1 -<p>
+                    <a href="https://onigirye.github.io/AnaPRI.github.io/" target="_blank" class="a_b"> Ana Paula Rye Ito</a>
+                <p class="pfoot"> & </p>
+                <a href="https://fabiosato0.github.io/" target="_blank" class="a_b">Fábio Hideki Sato</a>
+                <p class="pfoot"> - 2025_1</p>
+            </div>
         </div>
     </div>
 </footer>
+
 </html>

@@ -1,10 +1,25 @@
-/*Parte do meio*/
-  .cen{
-    margin-left: 20%;
-  }
+#dbd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#pres{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
   .meio{
+    width: 820px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
   .esp{padding: 20px;}
+
+  p{
+    font-family: Georgia, serif;
+    font-size: 1.75vh;
+  }
