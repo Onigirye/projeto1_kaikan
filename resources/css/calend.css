@@ -1,0 +1,16 @@
+.lt{
+    width: 500px;
+    border: 2px solid white;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ploc{
+    font-size: 2.2vh;
+    font-family: Georgia, serif;
+}

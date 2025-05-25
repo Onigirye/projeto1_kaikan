@@ -1,0 +1,22 @@
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.txpa{
+    margin: 75px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pm{
+    font-family: Georgia, serif;
+}
+
+#titp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

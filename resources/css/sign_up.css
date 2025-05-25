@@ -1,0 +1,34 @@
+#usu{
+    font-size: 3vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    font-size: 1.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    height: 30px;
+    width: 60px;
+    font-size: 1.5vh;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.divr{
+    display: flex;
+    flex-direction: row;
+}
+a:hover {
+    color: rgb(0, 117, 111);
+}

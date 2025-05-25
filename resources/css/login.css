@@ -1,0 +1,21 @@
+#usu{
+    font-size: 3vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    height: 30px;
+    width: 60px;
+    font-size: 1.5vh;
+}
+.div2{
+    display: flex;
+    justify-content: flex-end;
+}
