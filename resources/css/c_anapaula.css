@@ -1,0 +1,38 @@
+#cima {
+    padding: 1px;
+    background: url(../img/cvitae/pracima.png);
+    background-repeat: no-repeat;
+    background-size: 50000px 100px;
+  }
+#head2{
+    font-family: 'Arial', sans-serif;
+    font-style: oblique;
+    background-color: rgb(47, 151, 99);
+}
+#local{
+    color: rgb(44, 79, 255);
+}
+body{
+    background-color: rgb(210, 251, 251);
+}
+h1{
+    font-family: 'Arial', sans-serif;
+}
+p{
+    font-family: 'Times New Roman', serif;
+}
+a {
+    color: rgb(44, 79, 255);
+}
+a[href="https://www.linkedin.com/in/ana-paula-rye-ito-aa7418333/"] {
+    background-color: rgba(158, 214, 235, 0.802);
+}
+a[href="mailto:a.p.ryeito@gmail.com"] {
+        background-color: rgba(158, 214, 235, 0.802);
+}
+a:hover {
+    color: rgb(255, 149, 43);
+}   
+.img{
+    border-radius: 8px;
+}
