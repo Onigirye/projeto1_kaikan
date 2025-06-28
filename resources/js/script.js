@@ -64,7 +64,7 @@ function clearList() {
     renderUserList();
 }
 
-function searchByName() {
+function search() {
     var input, filter, ul
 
     input = document.getElementById("searchInput");
