@@ -1,0 +1,83 @@
+#usu{
+    font-size: 3vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    height: 30px;
+    width: 60px;
+    font-size: 1.5vh;
+}
+.div2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#userForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#userForm input{
+    font-size: 2vh;
+    padding: 5px; 
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+#searchInput{
+    margin-top: 30px;
+    font-size: 2vh;
+    padding: 5px; 
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.submit{
+    padding: 10px 20px;
+    background-color: #980000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 60%;
+}
+
+li{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    float: right;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
